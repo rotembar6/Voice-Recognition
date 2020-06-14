@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voice Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="bg"></div>
+          <h1 align="center">Voice Recognition</h1>
+          <p align="center">Select your files here and then press Submit</p>
+            <div align="center" class="container">
+                  <form action = "http://localhost:5000/uploader" method = "POST" enctype = "multipart/form-data">
+                     <input align="center" type = "file" name = "file" />
+                      <br/>
+                     <input align="center" type = "submit"/>
+                  </form>
+            </div>
+    </div>
+</body>
+</html>
