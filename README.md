@@ -6,7 +6,7 @@ pycharm with python 3.6.
 You have to download this libraries: pyaudio, wave, numpy, flask.
 
 # Installation
-download the zip file and execute it. It should look like this:
+clone the files. It should look like this:
 * Server (Folder):
     * Recordings (Folder)
     * Templates (Folder)
