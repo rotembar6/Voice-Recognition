@@ -7,6 +7,7 @@ You have to download this libraries: pyaudio, wave, numpy, flask.
 
 # Installation
 clone the files. It should look like this:
+* MAKE SURE THAT YOU CREATE FOLDER NAMED Recordings IN SERVER AND CLIENT
 * Server (Folder):
     * Recordings (Folder)
     * Templates (Folder)
